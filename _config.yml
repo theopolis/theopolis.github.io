@@ -1,7 +1,7 @@
-title: casualhacking.io
-#email: your-email@example.com
+title: casualhacking
 
-description: Casual Hacking
+description: |
+  A personal and public journal of technology exploration, usually about computer security and hardware.
 
 baseurl: ""
 url: "https://theopolis.github.io"
@@ -11,25 +11,8 @@ github_username: theopolis
 
 # Build settings
 theme: minima
+show_excerpts: true
+permalink: /blog/:year/:i_month/:i_day/:title
+excerpt_separator: <!--more-->
 plugins:
   - jekyll-feed
-
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
