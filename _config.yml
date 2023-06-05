@@ -14,5 +14,6 @@ theme: minima
 show_excerpts: true
 permalink: /blog/:year/:i_month/:i_day/:title
 excerpt_separator: <!--more-->
+google_analytics: G-QLLJGFPY1P
 plugins:
   - jekyll-feed
